@@ -1,0 +1,518 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-08-08 09:19:27
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-09-14 17:57:30
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+i{
+	font-style: normal;
+}
+
+/* 头部搜索开始 */
+header{
+	height: 0.9rem;
+	width: 100%;
+	background: #0ECF98;
+	position: relative;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+header .page{
+	width: 1.10rem;
+	height: 100%;
+	float: left;
+	font-size: 0.34rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.9rem;
+}
+header .search{
+	height: 0.46rem;
+	width: 4.8rem;
+	float: left;
+	margin-top: 0.22rem;
+	margin-left: 0.48rem;
+	border-radius: 0.23rem;
+}
+header input{
+	float: left;
+	width: 4.75rem;
+	height: 0.38rem;
+	background: #fff;
+	background-image: url('../img/cs.png');
+	background-repeat: no-repeat;
+	background-position:0.13rem center;
+	background-size: 0.30rem 0.30rem;
+	border-radius: 0.3rem;
+	border: none;
+	margin: 0.28rem 0 0 0.35rem;
+	padding-left: 0.55rem;
+	color: #e1e1e1;
+	outline: none;
+	line-height: 0.9rem;
+	position: relative;
+}
+header .sound img{
+	position: absolute;
+	height: 0.2rem;
+	width: 0.2rem;
+	top: 0.38rem;
+	right: 1.43rem;
+}
+/* 改变input中提示性文字的样式 */
+input::-webkit-input-placeholder{
+	color: #e1e1e1;
+	font-size: 0.22rem;
+	line-height: 0.38rem
+}
+header .scan{
+	height: 0.9rem;
+	width: 0.64rem;
+	float: right;
+	/* margin-right: 0.24rem; */
+}
+header .scan .circle{
+	height: 0.4rem;
+	width: 0.4rem;
+	border-radius: 0.2rem;
+	margin: 0 auto;margin-top: 0.25rem;
+	background: #fff;
+	background-image: url('../img/scan.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 0.21rem 0.21rem;
+}
+
+
+
+/* banner图开始 */
+
+.swiper-container {
+    width: 100%;
+    height: 4.4rem;
+    margin-top: 0.9rem;
+} 
+.swiper-container img{
+	width: 100%;
+	margin-top: 0.9rem;	
+	background: yellow;
+} 
+.banner{
+	height: 3.58rem;
+	width: 100%;
+	background-image: url('../img/banner.png');
+	background-size: 7.5rem 5.2rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+	margin-top: 0.9rem;
+}
+.banner .box{
+	height: 0.45rem;
+	width: 1.65rem;
+	margin: 0 auto;
+	margin-top: 3.12rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.banner .box .dot{
+	height: 0.14rem;
+	width: 0.14rem;
+	border-radius: 0.7rem;
+	background-color: #0ECF98;
+}
+.banner .box .dot1{
+	background-color: #fff;
+}
+/* banner图结束 */
+
+
+
+/* 图标开始 */
+nav{
+	height: 3.7rem;
+	width: 100%;
+/* 	background: pink; */
+	padding: 0 0.24rem;
+}
+nav main{
+/* 	width: 7.04rem; */
+	height: 100%;
+/* 	background: orange; */
+	/* border: 0.01rem solid #ebebeb; */
+}
+nav main ul{
+	height: 1.46rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; 
+	flex-wrap: wrap;
+	align-content: space-around;
+	margin-top: 0.34rem;
+}
+nav main ul li{
+	width: 1.19rem;
+	height: 1.46rem;
+	/* background-color: blue; */
+/* 	border:0.01rem solid #000; */
+	position: relative;
+}
+
+nav main ul li img{
+	height: 0.92rem;
+	width: 0.92rem;
+	position: absolute;
+	top: 0.15rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+nav main ul li p{
+	font-size: 0.24rem;
+	color: #060606;
+	text-align: center;
+	margin-top: 1.1rem;
+}
+/* 图标结束 */
+
+
+/* 猜你喜欢 */
+.guess .top{
+	height: 1.39rem;
+	width: 100%;
+/* 	background: yellow; */
+}
+.guess .top img{
+	width: 2.68rem;
+	height: 0.98rem;
+	margin-left: 2.41rem;
+}
+.guess .like{
+	height: 4.12rem;
+	width: 6.8rem;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+.guess .like ul{
+	height: 2.12rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.guess .like ul li{
+	height: 1.96rem;
+	width: 3.17rem;
+	float: left;
+	position: relative;
+}
+.guess .like ul li img{
+	height: 1.89rem;
+	width: 3.11rem;
+}
+.guess .like ul li .shape{
+	height: 0.36rem;
+	width: 0.93rem;
+	background: #D9BB87;
+	position: absolute;
+	top: 0.05rem;
+	left: 0.1rem;
+	border-bottom-right-radius: 0.18rem;
+}
+.guess .like ul li .shape p{
+	font-size: 0.24rem;
+	color: #fffcfc;
+	text-align: center;
+}
+/* 猜你喜欢结束 */
+
+
+
+
+/* 推荐商家开始 */
+.list{
+	margin-bottom: 1.2rem;
+}
+.list .top{
+	height: 1.39rem;
+	width: 100%;
+/* 	background: yellow; */
+	margin-top: 0.2rem;
+}
+.list .top img{
+	width: 3.41rem;
+	height: 0.98rem;
+	margin-left: 2.04rem;
+}
+.list .among{
+	height: 0.65rem;
+	width: 7.04rem;
+	/* background: green; */
+	margin: 0 auto;
+	margin-bottom: 0.25rem;
+
+}
+.list .among ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list .among ul li{
+	height: 0.48rem;
+	width: 1.26rem;
+	background-color: white;
+	border-radius: 0.24rem;
+	border: 0.02rem solid #0ECF98;
+	float: left;
+	margin-top: 0.13rem;
+	color: #060606;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.48rem; 
+	margin-bottom: 3rem; 
+}
+.list .bottom {
+	width: 7.02rem;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.list .bottom ul li{
+	height: 2.23rem;
+	width: 7.02rem;
+/* 	background: red; */
+	margin: 0 auto;
+	margin-bottom: 0.25rem;
+	box-shadow: 0.02rem 0.02rem 0.1rem 0.01rem #0ECF98;
+}
+.list .bottom ul li .picture{
+	height: 1.74rem;
+	width: 1.5rem;
+	float: left;
+	background: green;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+}
+.list .bottom ul li .content{
+	height: 1.74rem;
+	width: 5.03rem;
+	/* background: yellow; */
+	margin-top: 0.2rem;
+	float: left;
+	margin-left: 0.1rem
+}
+.list ul li .picture img{
+	width: 1.5rem;
+	height: 1.74rem;
+}
+.list ul li .content .one{
+	height: 0.26rem;
+	width: 100%;
+/* 	background: blue; */
+	text-align: left;
+	line-height: 0.26rem;
+	/* margin-top: 0.05rem; */
+	margin-left: 0.1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.list ul li .content .zi{
+	height: 0.26rem;
+	width: 2.5rem;
+/* 	background: pink;
+ */	float: left;
+}
+.list ul li .content h6{
+	font-size: 0.24rem;
+	border-bottom: 0.02rem dotted #333;
+}
+.list ul li .content .one .star{
+	height: 0.26rem;
+	width: 1.3rem;
+/* 	background: yellow; */
+	float: right;
+	font-size: 0.16rem;	
+}
+.list ul li .content .two{
+	height: 0.26rem;
+	width: 100%;
+/* 	background: red; */
+	text-align: left;
+	line-height: 0.26rem;
+	margin-top: 0.13rem;
+	margin-left: 0.1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.list ul li .content p{
+	font-size: 0.22rem;
+	color: #333;
+}
+.list ul li .content .three{
+	height: 0.26rem;
+	width: 100%;
+/* 	background: pink; */
+	text-align: left;
+	line-height: 0.26rem;
+	margin-top: 0.07rem;
+	margin-left: 0.1rem;
+}
+.list ul li .content .word1{
+	color:  #808080;
+	font-size: 0.2rem;
+	float: left;
+}
+.list ul li .content .word2{
+	color:  #808080;
+	font-size: 0.2rem;
+	float: left;
+	margin-left: 0.5rem;
+}
+.list ul li .content .four{
+	height: 0.38rem;
+	width: 100%;
+/* 	background: blue; */
+	text-align: left;
+	line-height: 0.38rem;
+	margin-top: 0.05rem;
+	margin-left: 0.1rem;
+}
+.list ul li .content .man{
+	height: 0.34rem;
+	width: 0.86rem;
+	border-radius: 0.17rem;
+	background: white;
+	border: 0.02rem solid #0ECF98;
+	font-size: 0.22rem;
+	color:  #808080;
+	text-align: center;
+	line-height: 0.34rem;
+	float: left;
+}
+.list ul li .content .four span{
+	font-size: 0.2rem;
+	color:  #808080;
+	float: left;
+	margin-left: 0.2rem;
+}
+.list ul li .content .five{
+	height: 0.38rem;
+	width: 100%;
+/* 	background: blue; */
+	text-align: left;
+	line-height: 0.38rem;
+	margin-left: 0.1rem;
+	position: relative;
+}
+.list ul li .content .man{
+	height: 0.34rem;
+	width: 0.86rem;
+	border-radius: 0.17rem;
+	background: white;
+	border: 0.02rem solid #0ECF98;
+	font-size: 0.22rem;
+	color: #060606;
+	text-align: center;
+	line-height: 0.34rem;
+	float: left;
+}
+.list ul li .content .five span{
+	font-size: 0.2rem;
+	color:  #808080;
+	float: left;
+	/* margin-left: 0.2rem; */
+}
+.list ul li .content .five .time{
+	height: 0.34rem;
+	width: 0.86rem; 
+/* 	background: red; */
+	float: left;
+/* 	margin-left:0.6rem; */
+	line-height: 0.34rem;
+	position: absolute;
+	bottom: 0.03rem;
+	right: 0.86rem;
+} 
+.list ul li .content .five .time p{
+	color: #53c89b;
+	font-size: 0.2rem;
+}
+.list ul li .content .five .time span{
+	color: #53c89b;
+	font-size: 0.2rem;
+}
+.list ul li .content .five .km{
+	height: 0.34rem;
+	width: 0.76rem; 
+/* 	background: yellow; */
+	float: right;
+	text-align: center;
+	line-height: 0,34rem;
+} 
+
+
+
+
+/* 底部开始 */
+.last{
+	height: 0.98rem;
+	width: 100%;
+	background:white;
+	box-shadow: 0.02rem 0.02rem 0.1rem 0.01rem #0ECF98;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+} 
+.last .tab{
+	height: 0.98rem;
+	width: 6.04rem;
+/* 	background: yellow; */
+	margin: 0 auto;
+/* 	margin-top: 0.2rem; */
+}
+.last .tab ul {
+	display: flex;
+	justify-content: space-between;
+}
+.last .tab ul li{
+	height: 0.84rem;
+	width: 0.81rem;
+/* 	background: pink; */
+	float: left;
+	margin-top: 0.05rem;
+	position: relative;
+}
+
+.last .tab ul li img{
+	height: 0.39rem;
+	width: 0.39rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.last .tab ul li p{
+	font-size: 0.2rem;
+	color: #060606;
+	text-align: center;
+	margin-top: 0.5rem;
+}

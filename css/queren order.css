@@ -1,0 +1,513 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-08-12 13:39:32
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-08-16 10:04:23
+*/
+
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 5.48rem;
+	background: #0ecf98;
+}
+header .top{
+	height: 1rem;
+	width: 100%;
+	background: #0ecf98;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+header .top .pic{
+	height: 0.7rem;
+	width: 0.7rem;
+	/* background: pink; */
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.24rem;
+	position: relative;
+}
+header .top .pic img{
+	width: 0.21rem;
+	height: 0.39rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.2rem;
+}
+header .top .title{
+	height: 0.7rem;
+	width: 1.8rem;
+	/* background: pink; */
+	position: absolute;
+	top:0.15rem;
+	left: 2.8rem;
+	font-size: 0.34rem;
+	color: #fefdfd;
+	text-align: center;
+	line-height: 0.7rem;
+}
+
+
+
+header .bottom{
+	height: 5.3rem;
+	width: 100%;
+	/* background: yellow; */
+	overflow: hidden;
+	margin-top: 1rem;
+	position: relative;
+}
+header .bottom .word1{
+	height: 0.54rem;
+	width: 7.02rem;
+	/* background: red; */
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	position: relative;
+}
+header .bottom .word1 .left{
+	height: 0.54rem;
+	width: 1.5rem;
+	/* background: blue; */
+	font-size: 0.28rem;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 0.54rem;
+	float: left;
+	margin-left: 0.25rem;
+}
+header .bottom .word1 .right{
+	height: 0.44rem;
+	width: 0.85rem;
+	margin-left: 1.9rem;
+	border-radius: 0.22rem;
+	border: 0.01rem solid rgba(255, 255, 255, 0.8);
+	font-size: 0.18rem;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 0.44rem;
+	text-align: center;
+	position: absolute;
+	top: 0.06rem;
+}
+header .bottom .word2{
+	height: 0.56rem;
+	width: 7.02rem;
+	/* background: red; */
+	margin: 0 auto;
+	margin-top: 0.06rem;
+}
+header .bottom .word2 .tltle{
+	height: 0.56rem;
+	width: 1.5rem;
+	/* background: blue; */
+	float: left;
+}
+header .bottom .word2 .title p{
+	font-size: 0.38rem;
+	color: #fff;
+	line-height: 0.54rem;
+	margin-left: 0.25rem;
+}
+
+header .bottom .word3{
+	height: 0.54rem;
+	width: 7.02rem;
+	/* background: red; */
+	margin: 0 auto;
+	margin-top: 0.06rem;
+	position: relative;
+}
+header .bottom .word3 .left{
+	height: 0.54rem;
+	width: 2.2rem;
+	/* background: blue; */
+	font-size: 0.3rem;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 0.54rem;
+	float: left;
+	margin-left: 0.25rem;
+}
+header .bottom .word3 .right{
+	height: 0.44rem;
+	width: 2rem;
+	margin-left: 2.6rem;
+	font-size: 0.3rem;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 0.44rem;
+	text-align: center;
+	position: absolute;
+	top: 0.06rem;
+}
+header .bottom .last{
+	height: 2.15rem;
+	width: 7.02rem;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	border-radius: 0.1rem;
+}
+header .bottom .last .top1{
+	height: 1rem;
+	width: 6.87rem;
+	/* background: orange; */
+	margin:0 auto;
+}
+header .bottom .last .top1 .left{
+	width: 3.46rem;
+	height: 1rem;
+	/* background: red; */
+	float: left;
+
+}
+header .bottom .last .top1 .left .time{
+	height: 0.5rem;
+	width: 1.75rem;
+	/* background: green; */
+	font-size: 0.34rem;
+	color: #000;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+header .bottom .last .top1 .left .ontime{
+	height: 0.4rem;
+	width: 3.45rem;
+	/* background: blue; */
+	color: #fa1b50;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+header .bottom .last .top1 .right{
+	width: 3.41rem;
+	height: 1rem;
+	/* background: green; */
+	float: right;
+	color: #fa1b50;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 1rem;
+}
+header .bottom .last .line{
+	height: 0.15rem;
+	width: 6.87rem;
+	/* background: orange; */
+	margin: 0 auto;
+	position: relative;
+	margin-top: 0.05rem;
+}
+header .bottom .last .line img{
+	height: 0.04rem;
+	width: 6.53rem;
+	position: absolute;
+	top: 0.05rem;
+	left: 0.17rem;
+
+}
+header .bottom .last .bottom{
+	height: 0.82rem;
+	width: 6.87rem;
+	/* background: yellow; */
+	margin: 0 auto;
+	margin-top: 0.05rem;
+}
+header .bottom .last .bottom .way{
+	height: 0.77rem;
+	width: 3.25rem;
+	/* background: red; */
+	float: left;
+	font-size: 0.34rem;
+	color: #000;
+	line-height: 0.77rem;
+	margin-left: 0.15rem;
+}
+header .bottom .last .bottom .way1{
+	height: 0.77rem;
+	width: 2.4rem;
+	/* background: green; */
+	float: right;
+	color: #fa1b50;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.77rem;
+}
+header .bottom .last .bottom .way1 span{
+	color: #000;
+	margin-left: 0.1rem;
+}
+
+
+
+
+/* 主体开始 */
+main{
+	height: 7.7rem;
+	width: 100%;
+	/* background: red; */
+	margin-bottom: 0.98rem;
+}
+main .content{
+	height: 5.38rem;
+	width: 7.01rem;
+	background: white;
+	margin: 0 auto;
+	border-radius: 0.1rem;
+	box-shadow: 0 0.02rem 0.05rem 0.01rem rgba(14, 207, 152, 0.2);
+	position: absolute;
+	left: 0.25rem;
+	top: 5.8rem;
+}
+
+main .content .cook .title{
+	height: 0.9rem;
+	width: 6.58rem;
+	/* background: red; */
+	margin: 0 auto;
+	margin-top: 0.1rem;
+	color: #000;
+	font-size: 0.38rem;
+	line-height: 0.9rem;
+}
+main .content .line{
+	height: 0.06rem;
+	width: 6.58rem;
+	/* background: orange; */
+	margin: 0 auto;
+}
+main .content .line img{
+	height: 0.04rem;
+	width: 6.53rem;
+	display: block;
+}
+
+/* 宫爆鸡丁 */
+main .content .list{
+	height: 1.1rem;
+	width: 6.53rem;
+	/* background: green; */
+	margin: 0 auto;
+	overflow: hidden;
+}
+main .content .list .pic{
+	height:0.89rem;
+	width: 0.89rem;
+	/* background: red; */
+	margin-top: 0.1rem; 
+	float: left;
+}
+main .content .list .pic img{
+	height: 0.76rem;
+	width: 0.83rem;
+	display: block;
+	margin-top: 0.07rem;
+}
+main .content .list .word{
+	height:0.89rem;
+	width: 2.13rem;
+	/* background: pink; */
+	margin-top: 0.1rem; 
+	float: left;
+	margin-left: 0.2rem;
+	font-size: 0.3rem;
+	color: #000;
+	line-height: 0.89rem;
+	float: left;
+}
+main .content .list .picture{
+	height: 0.5rem;
+	width: 0.5rem;
+	background: #0ecf98;
+	float: left;
+	margin-top: 0.3rem;
+	margin-left: 0.2rem;
+	border-radius: 0.25rem;
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.5rem;
+
+}
+main .content .list .math{
+	height: 0.5rem;
+	width: 0.5rem;
+	/* background: orange; */
+	float: left;
+	margin-top: 0.3rem;
+	margin-left: 0.1rem;
+	font-size: 0.3rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.5rem;
+}
+main .content .list .money{
+	width: 1.3rem;
+	height: 0.89rem;
+	/* background: orange; */
+	float: right;
+	margin-top: 0.1rem; 
+	color: #646464;
+	font-size: 0.24rem;
+	line-height: 0.89rem;
+	text-align: center;
+}
+main .content .list .money span{
+	color: #fa1b50;
+	font-size: 0.36rem;
+}
+
+/* 红包 */
+main .content .redpaper{
+	height: 0.88rem;
+	width: 6.53rem;
+	margin: 0 auto;
+	/* background: orange; */
+	margin-top: 0.1rem;
+}
+main .content .redpaper .left{
+	height: 0.88rem;
+	width: 1.3rem;
+	/* background: red; */
+	color: #000;
+	font-size:0.28rem;
+	line-height: 0.88rem;
+	float: left;
+	margin-left: 0.04rem;
+}
+main .content .redpaper .right{
+	height: 0.88rem;
+	width: 1.8rem;
+	/* background: red; */
+	color: rgba(0, 0, 0, 0.7);
+	font-size:0.28rem;
+	line-height: 0.88rem;
+	float: right;
+}
+
+/* 小计 */
+main .content .sum{
+	height: 0.88rem;
+	width: 6.53rem;
+	margin: 0 auto;
+	/* background: orange; */
+	margin-top: 0.1rem;
+}
+main .content .sum .left{
+	height: 0.88rem;
+	width: 1.3rem;
+	/* background: red; */
+	color: #000;
+	font-size:0.28rem;
+	line-height: 0.88rem;
+	float: left;
+	margin-left: 0.04rem;
+}
+main .content .sum .right{
+	height: 0.88rem;
+	width: 1.4rem;
+	/* background: red; */
+	color: rgba(0, 0, 0, 0.7);
+	font-size:0.28rem;
+	line-height: 0.88rem;
+	float: right;
+	color: #fa1b50;
+	font-size:0.3rem;
+}
+mian .content .sum .right span{
+	font-size: 0.4rem;
+}
+
+
+/* 备注 */
+.remark{
+	height: 2.2rem;
+	width: 7.02rem;
+	background: white;
+	margin: 0 auto;
+	margin-top: 0.4rem;
+	border-radius: 0.1rem;
+	box-shadow: 0 0 0.05rem 0.01rem rgba(14, 207, 152, 0.2);
+}
+.remark .top{
+	height: 1rem;
+	width: 6.53rem;
+	margin: 0 auto;
+	/* background: orange; */
+}
+.remark .top .left{
+	height: 1rem;
+	width: 1.3rem;
+	/* background: red; */
+	color: #000;
+	font-size:0.28rem;
+	line-height: 1rem;
+	float: left;
+	margin-left: 0.04rem;
+}
+.remark .top .right{
+	height: 1rem;
+	width: 1.9rem;
+	/* background: red; */
+	color: rgba(0, 0, 0, 0.7);
+	font-size:0.28rem;
+	line-height: 1rem;
+	float: right;
+	font-size:0.3rem;
+	text-align: right;
+}
+
+
+/* 底部开始 */
+footer{
+	height: 0.98rem;
+	width: 7.5rem;
+	background: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	box-shadow: 0 0 0.05rem 0.01rem rgba(14, 207, 152, 0.2);
+}
+footer .left{
+	height: 0.98rem;
+	width: 2.2rem;
+	/* background: red; */
+	float: left;
+	margin-left: 0.3rem;
+}
+footer .left .circle{
+	height: 0.14rem;
+	width: 0.14rem;
+	background: #0ecf98;
+	margin-top: 0.42rem;
+	margin-left: 0.2rem;
+	border-radius: 0.07rem;
+	float: left;
+}
+footer .left .word{
+	height: 0.74rem;
+	width: 1.8rem;
+	/* background: yellow; */
+	float: right;
+	margin-top: 0.12rem;
+	font-size: 0.24rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.74rem;
+}
+footer .left .word span{
+	font-size: 0.4rem;
+	color: #0ecf98;
+}
+footer .right{
+	height: 0.74rem;
+	width: 2.05rem;
+	background: #0ecf98;
+	float: right;
+	margin-right: 0.3rem;
+	margin-top: 0.12rem;
+	border-radius: 0.37rem;
+	color: #fff;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.74rem;
+}

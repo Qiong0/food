@@ -1,0 +1,302 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-08-14 10:49:58
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-09-14 17:34:05
+*/
+
+/* 顶部开始 */
+header{
+	width: 100%;
+	height: 2.26rem;
+	background: #0ecf98;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header .one{
+	height: 0.6rem;
+	width: 0.6rem;
+	background: white;
+	border-radius: 0.3rem;
+	float: left;
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+	position: relative;
+}
+header .one img{
+	width: 0.32rem;
+	height: 0.32rem;
+	position: absolute;
+	top: 0.14rem;
+	left: 0.14rem;
+
+}
+header .two{
+	height: 0.6rem;
+	width: 0.6rem;
+	background: white;
+	border-radius: 0.3rem;
+	float: right;
+	margin-top: 0.24rem;
+	margin-right: 0.3rem;
+	position: relative;
+}
+header .two img{
+	width: 0.32rem;
+	height: 0.32rem;
+	position: absolute;
+	top: 0.14rem;
+	left: 0.14rem;
+}
+
+header .title{
+	height: 0.7rem;
+	width: 1.8rem;
+/* 	background: pink; */
+	position: absolute;
+	top:0.15rem;
+	left: 2.8rem;
+	font-size: 0.34rem;
+	color: #fefdfd;
+	text-align: center;
+	line-height: 0.7rem;
+	z-index: 1;
+}
+header .english{
+	width: 3.9rem;
+	height: 0.7rem;
+/* 	background: orange; */
+	position: absolute;
+	top: 0.35rem;
+	left: 2rem;
+	color: #5DD9AF;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.7rem;
+}
+header .mess{
+	height: 0.32rem;
+	width: 0.5rem;
+	background-color: #F21E51;
+	border-radius: 0.17rem;
+	position: absolute;
+	top: 0.1rem;
+	right: 0.65rem;
+	font-size: 0.18rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.32rem;
+}
+header .box{
+	height: 1.8rem;
+	width: 7.02rem;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 1.13rem;
+	overflow: hidden;
+	border-radius: 0.1rem;
+	box-shadow: 0rem 0rem 0.1rem 0.08rem rgba(14, 207, 152, 0.3);
+}
+header .box .pic{
+	height: 0.8rem;
+	width: 0.8rem;
+	/* background-color: orange; */
+	margin-left: 0.43rem;
+	margin-top: 0.38rem;
+	float: left;
+	background-image: url('../img/personal3.png');
+	background-position: center;
+	background-size: 100% 100%;
+}
+header .box .word{
+	height: 1.14rem;
+	width: 3.11rem;
+	/* background-color:yellow; */
+	float: left;
+	margin-top: 0.33rem;
+	margin-left: 0.2rem;
+}
+header .box .word .top{
+	height: 0.3rem;
+	width: 1.36rem;
+	/* background-color: red; */
+	font-size: 0.24rem;
+	color: #000;
+}
+header .box .word .among{
+	height: 0.28rem;
+	width: 2.2rem;
+	/* background-color: pink; */
+	font-size: 0.2rem;
+	color: rgba(0, 0, 0, 0.6);
+}
+header .box .word .last{
+	height: 0.4rem;
+	width: 2.7rem;
+	/* background-color: green; */
+	margin-top: 0.1rem;
+	font-size: 0.2rem;
+	color: rgba(0, 0, 0, 0.6);
+	line-height: 0.4rem;
+	font-weight: 400;
+}
+header .box .star{
+	height: 0.4rem;
+	width: 1.3rem;
+	/* background-color: red; */
+	float: left;
+	margin-top: .5rem;
+	position: relative;
+
+}
+header .box .star img{
+	height: 0.21rem;
+	width: 0.98rem;
+	position: absolute;
+	top: 0.05rem;
+}
+header .box .fen{
+	height: 0.4rem;
+	width: 0.8rem;
+	/* background-color: red; */
+	float: left;
+	margin-top: .5rem;
+	color: #0ecf98;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+}
+/* 顶部结束 */
+
+
+/* 内容开始 */
+main{
+	width: 7.02rem;
+	height: 5rem;
+	/* background-color: orange; */
+	margin:  0 auto;
+	margin-top: 3.5rem;
+}
+main .box{
+	height: 1rem;
+	width: 7.02rem;
+	/* background-color: red; */
+	margin: 0 auto;
+	border-radius: 0.15rem;
+	margin-bottom: 0.25rem;
+	box-shadow: 0.02rem 0.03rem 0.05rem 0.02rem rgba(14, 207, 152, 0.3);
+}
+main .box .left{
+	height: 0.67rem;
+	width: 0.67rem;
+	/* background-color: yellow; */
+	float: left;
+	margin-top: 0.16rem;
+	margin-left: 0.2rem;
+	position: relative;
+}
+main .box .left img{
+	width: 0.44rem;
+	height: 0.45rem;
+	position: absolute;
+	top:0.11rem;
+	left: 0.11rem;
+}
+main .box .middle{
+	height: 0.73rem;
+	width: 1.9rem;
+	/* background-color: pink; */
+	float: left;
+	margin-top: 0.13rem;
+	margin-left: 0.1rem;
+}
+main .box .middle .title1{
+	height: 0.37rem;
+	width: 1.9rem;
+	/* background-color: yellow; */
+	font-size: 0.26rem;
+	color: #010101;
+}
+main .box .middle .title2{
+	height: 0.37rem;
+	width: 2.5rem;
+	/* background-color: green; */
+	font-size: 0.22rem;
+	color: rgba(0, 0, 0, 0.5);
+	line-height: 0.37rem;
+}
+main .box .right{
+	height: 0.45rem;
+	width: 0.45rem;
+	float: right;
+	background-color:#F21E51;
+	margin-right: 0.24rem;
+	margin-top: 0.27rem;
+	border-radius: 0.22rem;
+	color: #fff;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+main .box .right1{
+	height: 0.34rem;
+	width: 0.5rem;
+	float: right;
+	border: 0.01rem solid #F21E51;
+	margin-right: 0.24rem;
+	margin-top: 0.27rem;
+	border-radius: 0.19rem;
+	color: #F21E51;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.34rem;
+}
+
+
+/* 底部开始 */
+footer{
+	height: 0.98rem;
+	width: 100%;
+	background:white;
+	box-shadow: 0.02rem 0.02rem 0.1rem 0.01rem #0ECF98;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+} 
+footer .tab{
+	height: 0.98rem;
+	width: 6.04rem;
+/* 	background: yellow; */
+	margin: 0 auto;
+/* 	margin-top: 0.2rem; */
+}
+footer .tab ul {
+	display: flex;
+	justify-content: space-between;
+}
+footer .tab ul li{
+	height: 0.84rem;
+	width: 0.81rem;
+	/* background: pink; */
+	float: left;
+	margin-top: 0.05rem;
+	position: relative;
+}
+
+footer .tab ul li img{
+	height: 0.4rem;
+	width: 0.4rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+footer .tab ul li p{
+	font-size: 0.2rem;
+	color: #060606;
+	text-align: center;
+	margin-top: 0.52rem;
+}
