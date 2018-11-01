@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/firm price.css">
 	<script src="js/firm price.js"></script>
+	<script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
 	<!-- 顶部开始 -->
@@ -178,8 +179,8 @@
 								<p>￥<span>26</span></p>
 							</div>
 							<div class="jian">-</div>
-							<div class="math">2</div>
-							<div class="add">+</div>
+							<div class="math">1</div>
+							<div class="adds">+</div>
 						</div>
 
 					</div>
@@ -223,7 +224,7 @@
 			</div>
 			<div class="word">
 				<div class="one">
-					<p><span>52</span>RMB(满59元减10元)</p>
+					<p><span>26</span>RMB(满59元减10元)</p>
 				</div>
 				<div class="one">
 					<p>另需要配送费3元</p>
@@ -234,7 +235,26 @@
 				<p>￥20元起送</p>
 			</div>
 		</div>
+		<script>
+						
+			let val=$(".math").html();
+			$(".adds").click(function(){
+				val++;
+				$(".math").html(val);
+				$("footer .one span").html(val*26);
+			})
+			$(".jian").click(function(){
+				val--;
+				if(val<=0){
+					val=0;
+				}
+				$(".math").html(val);
+				$("footer .one span").html(val*26);
+			})
+		
+		
 
+		</script>
 	</footer>
 
 	<!-- 遮罩开始 -->

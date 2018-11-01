@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-08-08 09:19:27
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-14 17:57:30
+* @Last Modified time: 2018-10-31 23:06:07
 */
 *{
 	padding: 0;
@@ -107,7 +107,7 @@ header .scan .circle{
 .swiper-container img{
 	width: 100%;
 	margin-top: 0.9rem;	
-	background: yellow;
+
 } 
 .banner{
 	height: 3.58rem;
